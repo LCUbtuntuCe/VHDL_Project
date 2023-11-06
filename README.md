@@ -1,1 +1,1 @@
-# VHDL_Project
+使用VHDL语言进行FPGA开发的日常练习
