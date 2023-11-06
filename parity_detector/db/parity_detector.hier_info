@@ -1,0 +1,12 @@
+|parity_detector
+byte[0] => parity.IN0
+byte[1] => parity.IN1
+byte[2] => parity.IN0
+byte[3] => parity.IN1
+byte[4] => parity.IN0
+byte[5] => parity.IN1
+byte[6] => parity.IN0
+byte[7] => parity.IN1
+parity <= parity.DB_MAX_OUTPUT_PORT_TYPE
+
+

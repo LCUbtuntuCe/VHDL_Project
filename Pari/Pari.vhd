@@ -1,0 +1,30 @@
+library ieee ;
+use ieee.std_logic_1164.all ;
+
+entity Pari is
+	port (
+		clock		  			 :	in std_logic ;
+		set_parity 			 :	in std_logic ;
+		new_correct_parity :	in std_logic ;
+		data					 :	in std_logic_vector(0 to 3) ;
+		parity_ok			 :	out boolean) ;
+end Pari ;
+
+architecture behav of Pari is
+	signal correct_parity : std_logic ;
+begin
+	process(clock)
+		variable temp: std_logic ;
+	begin
+		if clock' event and clock = '1' then 
+			if set_parity = '1' then
+First:		correct_parity <= new_correct_parity ;
+			end if ;
+			temp := '0' ;
+			for i in data' range loop
+				temp := temp xor data(i) ;
+			end loop ;
+Second:	parity_ok <= (temp = correct_parity) ;
+		end if ;
+	end process ;
+end behav ;

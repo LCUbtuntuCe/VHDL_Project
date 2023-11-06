@@ -1,0 +1,12 @@
+|Pari
+clock => parity_ok~reg0.CLK
+clock => correct_parity.CLK
+set_parity => correct_parity.ENA
+new_correct_parity => correct_parity.DATAIN
+data[3] => temp.IN1
+data[2] => temp.IN1
+data[1] => temp.IN0
+data[0] => temp.IN1
+parity_ok <= parity_ok~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

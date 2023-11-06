@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Nov 05 21:23:22 2023
+Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : dff1
+Top-level Entity Name : dff1
+Family : Cyclone II
+Total logic elements : 1
+    Total combinational functions : 0
+    Dedicated logic registers : 1
+Total registers : 1
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
