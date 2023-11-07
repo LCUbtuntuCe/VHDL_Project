@@ -1,0 +1,24 @@
+|priorityencoder
+input[0] => y.OUTPUTSELECT
+input[0] => y.OUTPUTSELECT
+input[0] => y.OUTPUTSELECT
+input[1] => y.OUTPUTSELECT
+input[1] => y.OUTPUTSELECT
+input[1] => y.OUTPUTSELECT
+input[2] => y.OUTPUTSELECT
+input[2] => y.OUTPUTSELECT
+input[2] => y.OUTPUTSELECT
+input[3] => y.OUTPUTSELECT
+input[3] => y.OUTPUTSELECT
+input[3] => y.DATAA
+input[4] => y.OUTPUTSELECT
+input[4] => y.OUTPUTSELECT
+input[5] => y.OUTPUTSELECT
+input[5] => y.DATAA
+input[6] => y.DATAA
+input[7] => ~NO_FANOUT~
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
