@@ -1,0 +1,19 @@
+|mux2
+d0[0] => q.DATAB
+d0[1] => q.DATAB
+d0[2] => q.DATAB
+d0[3] => q.DATAB
+d1[0] => q.DATAA
+d1[1] => q.DATAA
+d1[2] => q.DATAA
+d1[3] => q.DATAA
+sel => q.OUTPUTSELECT
+sel => q.OUTPUTSELECT
+sel => q.OUTPUTSELECT
+sel => q.OUTPUTSELECT
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
