@@ -1,5 +1,5 @@
 Analysis & Synthesis report for decoder_38
-Tue Nov 07 20:22:37 2023
+Tue Nov 07 23:16:53 2023
 Quartus II 64-Bit Version 9.1 Build 222 10/21/2009 SJ Full Version
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +------------------------------------+------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Nov 07 20:22:37 2023    ;
+; Analysis & Synthesis Status        ; Successful - Tue Nov 07 23:16:53 2023    ;
 ; Quartus II 64-Bit Version          ; 9.1 Build 222 10/21/2009 SJ Full Version ;
 ; Revision Name                      ; decoder_38                               ;
 ; Top-level Entity Name              ; decoder_38                               ;
@@ -225,7 +225,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
-    Info: Processing started: Tue Nov 07 20:22:36 2023
+    Info: Processing started: Tue Nov 07 23:16:53 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off decoder_38 -c decoder_38
 Info: Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info: Found 2 design units, including 1 entities, in source file decoder_38.vhd
@@ -237,9 +237,9 @@ Info: Implemented 19 device resources after synthesis - the final resource count
     Info: Implemented 8 output pins
     Info: Implemented 8 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4445 megabytes
-    Info: Processing ended: Tue Nov 07 20:22:37 2023
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 4447 megabytes
+    Info: Processing ended: Tue Nov 07 23:16:53 2023
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 

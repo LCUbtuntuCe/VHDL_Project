@@ -1,0 +1,12 @@
+|jioujy
+d[0] => tmp.IN0
+d[1] => tmp.IN1
+d[2] => tmp.IN1
+d[3] => tmp.IN1
+d[4] => tmp.IN1
+d[5] => tmp.IN1
+d[6] => tmp.IN1
+d[7] => tmp.IN1
+q <= tmp.DB_MAX_OUTPUT_PORT_TYPE
+
+
