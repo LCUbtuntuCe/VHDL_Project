@@ -1,0 +1,22 @@
+library ieee ;
+use ieee.std_logic_1164.all ;
+use ieee.std_logic_unsigned.all ;
+
+entity press_number is
+	port (
+		sw : in std_logic ;
+		led: out std_logic_vector(3 downto 0)
+	) ;
+end press_number ;
+
+architecture calculate of press_number is
+	signal count : std_logic_vector(3 downto 0) ;
+begin
+	process(count,sw)
+	begin
+		if (sw'event and sw = '1') then
+			count <= count + 1 ;
+			led <= count ;
+		end if ;
+	end process ;
+end calculate ;

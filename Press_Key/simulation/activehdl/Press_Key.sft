@@ -1,0 +1,4 @@
+set tool_name "Active-HDL (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {Press_Key.vho Press_Key_vhd.sdo}}
+}

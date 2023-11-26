@@ -1,0 +1,21 @@
+library ieee ;
+use ieee.std_logic_1164.all ;
+
+entity Press_Key is
+	port(
+		key : in std_logic ;
+		led : out std_logic_vector(3 downto 0)
+	) ;
+end Press_Key ;
+
+architecture Calculate of Press_Key is
+	signal count : std_logic_vector(3 downto 0) ;
+begin
+	process(count, key)
+	begin
+		if (key'event and key = '1') then
+			count <= count + 1 ;
+			led <= count ;
+		end if ;
+	end process ;
+end Calculate ;
