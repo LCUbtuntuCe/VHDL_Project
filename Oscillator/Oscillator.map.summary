@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Nov 29 03:20:45 2023
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : Oscillator
+Top-level Entity Name : Oscillator
+Family : Cyclone II
+Total logic elements : 3,392
+    Total combinational functions : 3,392
+    Dedicated logic registers : 33
+Total registers : 33
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

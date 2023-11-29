@@ -1,0 +1,46 @@
+|Oscillator
+sw[0] => Equal0.IN5
+sw[0] => Equal1.IN5
+sw[0] => Equal2.IN5
+sw[1] => Equal0.IN4
+sw[1] => Equal1.IN4
+sw[1] => Equal2.IN4
+sw[2] => Equal0.IN3
+sw[2] => Equal1.IN3
+sw[2] => Equal2.IN3
+clk => ld~reg0.CLK
+clk => num[0].CLK
+clk => num[1].CLK
+clk => num[2].CLK
+clk => num[3].CLK
+clk => num[4].CLK
+clk => num[5].CLK
+clk => num[6].CLK
+clk => num[7].CLK
+clk => num[8].CLK
+clk => num[9].CLK
+clk => num[10].CLK
+clk => num[11].CLK
+clk => num[12].CLK
+clk => num[13].CLK
+clk => num[14].CLK
+clk => num[15].CLK
+clk => num[16].CLK
+clk => num[17].CLK
+clk => num[18].CLK
+clk => num[19].CLK
+clk => num[20].CLK
+clk => num[21].CLK
+clk => num[22].CLK
+clk => num[23].CLK
+clk => num[24].CLK
+clk => num[25].CLK
+clk => num[26].CLK
+clk => num[27].CLK
+clk => num[28].CLK
+clk => num[29].CLK
+clk => num[30].CLK
+clk => num[31].CLK
+ld << ld~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
