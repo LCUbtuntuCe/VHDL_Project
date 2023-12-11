@@ -23,8 +23,8 @@ applicable agreement for further details.
 VECTOR("E:/VHDL_Project/Division/db/Division.sim.cvwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 161860;
+		ZBEGIN = 451653;
+		ZEND = 614137;
 		NUMERATOR = 363;
 		DENOMINATOR = 113209;
 		TOP_INDEX = 0;

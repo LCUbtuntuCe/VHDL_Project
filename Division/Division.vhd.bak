@@ -23,13 +23,15 @@ begin
 	begin
 		if rising_edge(clk) then
 			num <= num + 1 ;
-			if (sw = "011" or sw = "101" or sw = "111") then
+			if (sw = "011" or sw = "101" or sw = "111" or sw = "001") then
 				if (sw = "011") then
 					n := 3 ;
 				elsif (sw = "101") then
 					n := 5 ;
 				elsif (sw = "111") then
 					n := 7 ;
+				elsif (sw = "001") then
+					n := 1 ;
 				end if ;
 				
 				if (n = 3 and (num = 2 or ((num-2) rem n = 0)) ) then
@@ -38,6 +40,8 @@ begin
 					result <= Not result ;
 				elsif (n = 7 and (num = 4 or ((num-4) rem n = 0)) ) then
 					result <= Not result ;
+				elsif (n = 1) then
+					result <= NOT result ;
 				end if ;
 			end if ;
 		elsif falling_edge(clk) then
@@ -56,20 +60,25 @@ begin
 				elsif (num1 rem n1 = 0) then
 					result1 <= Not result1 ;
 				end if ;
-			elsif (sw = "011" or sw = "101" or sw = "111") then
+			elsif (sw = "011" or sw = "101" or sw = "111" or sw = "001") then
 				if (sw = "011") then
 					n1 := 3 ;
 				elsif (sw = "101") then
 					n1 := 5 ;
 				elsif (sw = "111") then
 					n1 := 7 ;
+				elsif (sw = "001") then
+					n1 := 1 ;
 				end if ;
 				
-				if (num1 rem n1 = 0) then
+				if (n1 = 1) then
+			        result1 <= Not result1 ;
+				elsif (num1 rem n1 = 0 and n1 /= 1) then
 					result1 <= Not result1 ;
 				end if ;
+				
 			end if ;
 		end if ;
-		ld <= result or result1 ;
+		ld <= result xor result1 ;
 	end process ;
 end Delay ;

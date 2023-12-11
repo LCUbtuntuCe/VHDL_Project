@@ -1,5 +1,5 @@
 Flow report for Division
-Wed Nov 29 09:38:22 2023
+Mon Dec 04 21:02:07 2023
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +------------------------------------+-----------------------------------------+
-; Flow Status                        ; Successful - Wed Nov 29 09:38:22 2023   ;
+; Flow Status                        ; Successful - Mon Dec 04 21:02:07 2023   ;
 ; Quartus II Version                 ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                      ; Division                                ;
 ; Top-level Entity Name              ; Division                                ;
@@ -46,8 +46,8 @@ applicable agreement for further details.
 ; Device                             ; EP2C70F896C6                            ;
 ; Timing Models                      ; Final                                   ;
 ; Met timing requirements            ; Yes                                     ;
-; Total logic elements               ; 10,322 / 68,416 ( 15 % )                ;
-;     Total combinational functions  ; 10,322 / 68,416 ( 15 % )                ;
+; Total logic elements               ; 10,233 / 68,416 ( 15 % )                ;
+;     Total combinational functions  ; 10,232 / 68,416 ( 15 % )                ;
 ;     Dedicated logic registers      ; 72 / 68,416 ( < 1 % )                   ;
 ; Total registers                    ; 72                                      ;
 ; Total pins                         ; 5 / 622 ( < 1 % )                       ;
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/29/2023 09:37:17 ;
+; Start date & time ; 12/04/2023 21:01:00 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Division            ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ applicable agreement for further details.
 +------------------------------------+---------------------------------+---------------+-------------+----------------------+
 ; Assignment Name                    ; Value                           ; Default Value ; Entity Name ; Section Id           ;
 +------------------------------------+---------------------------------+---------------+-------------+----------------------+
-; COMPILER_SIGNATURE_ID              ; 101405348463273.170122183710348 ; --            ; --          ; --                   ;
+; COMPILER_SIGNATURE_ID              ; 101405348463273.170169485902416 ; --            ; --          ; --                   ;
 ; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL    ; Design Compiler                 ; <None>        ; --          ; --                   ;
 ; EDA_INPUT_DATA_FORMAT              ; Edif                            ; --            ; --          ; eda_design_synthesis ;
 ; EDA_INPUT_VCC_NAME                 ; Vdd                             ; --            ; --          ; eda_design_synthesis ;
@@ -95,11 +95,11 @@ applicable agreement for further details.
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis    ; 00:00:19     ; 1.0                     ; 282 MB              ; 00:00:20                           ;
-; Fitter                  ; 00:00:21     ; 1.0                     ; 409 MB              ; 00:00:22                           ;
+; Fitter                  ; 00:00:21     ; 1.0                     ; 408 MB              ; 00:00:23                           ;
 ; Assembler               ; 00:00:03     ; 1.0                     ; 359 MB              ; 00:00:03                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 228 MB              ; 00:00:02                           ;
-; EDA Netlist Writer      ; 00:00:03     ; 1.0                     ; 248 MB              ; 00:00:03                           ;
-; Total                   ; 00:00:47     ; --                      ; --                  ; 00:00:50                           ;
+; Classic Timing Analyzer ; 00:00:02     ; 1.0                     ; 228 MB              ; 00:00:02                           ;
+; EDA Netlist Writer      ; 00:00:03     ; 1.0                     ; 247 MB              ; 00:00:03                           ;
+; Total                   ; 00:00:48     ; --                      ; --                  ; 00:00:51                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
